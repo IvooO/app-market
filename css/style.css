@@ -21,8 +21,8 @@ html * {
 body {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
-  color: #66CD00;
-  background-color: #66CD00;
+  color: #878cb0;
+  background-color:#93c853;
 }
 
 a {
@@ -51,20 +51,20 @@ Modules - reusable parts of our design
   font-size: 12px;
   font-size: 0.75rem;
   color: #ffffff;
-  background-color: #696f9b;
+  background-color: #6fb21d;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
 .no-touch .btn:hover {
-  background-color: #787ea5;
+  background-color:#6dab1b;
 }
 .btn.salmon {
-  background-color: #f58780;
+  background-color: rgba(245,89,89,0.82);
 }
 .no-touch .btn.salmon:hover {
-  background-color: #f79d98;
+  background-color: rgba(255,71,83,0.81);
 }
 @media only screen and (min-width: 1070px) {
   .btn {
@@ -567,10 +567,10 @@ html, body {
   text-indent: 100%;
   white-space: nowrap;
   color: transparent;
-  background: #4A9600;
+  background:  #6fb21d;
 }
 .no-touch .cd-slider-nav a:hover {
-  background: #2f3246;
+  background: #6dab1b;
 }
 .cd-slider-nav a::before {
   /*this is the bacgrounf arrow - we have been used a before element to change the opacity on hover*/
@@ -598,7 +598,7 @@ html, body {
   opacity: 1;
 }
 .cd-slider-nav .cd-next {
-  border-left: 1px solid #3f435f;
+  border-left: 1px solid #6fb21d;
 }
 .cd-slider-nav .cd-next::before {
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(180deg);
